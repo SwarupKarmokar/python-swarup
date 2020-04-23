@@ -6,7 +6,7 @@ print(2+3)
 variable1 = int(input('enter the first value=> '))
 variable2 = int(input('enter the second value=> '))
 variable3 = variable1 + variable2
-print(variable3)
+print(variable3) # or print(variable1 + variable2)
 
 # for subtraction
 print(2-1)
@@ -15,7 +15,7 @@ print(2-1)
 variable1 = int(input('enter the first value=> '))
 variable2 = int(input('enter the second value=> '))
 variable3 = variable1 - variable2
-print(variable3)
+print(variable3) # or print(variable1 - variable2)
 
 # for multiplication
 print(2*4)
@@ -23,7 +23,7 @@ print(2*4)
 variable1 = int(input('enter the first value=> '))
 variable2 = int(input('enter the second value=> '))
 variable3 = variable1 * variable2
-print(variable3)
+print(variable3) # or print(variable1 * variable2)
 
 # for division(its gives us float value)
 print(4/2)
@@ -32,7 +32,7 @@ print(4/2)
 variable1 = int(input('enter the first value=> '))
 variable2 = int(input('enter the second value=> '))
 variable3 = variable1 / variable2
-print(variable3)
+print(variable3) # or print(variable1 / variable2)
 
 # for floor values
 print(5//2)
@@ -41,7 +41,7 @@ print(5//2)
 variable1 = int(input('enter the first value=> '))
 variable2 = int(input('enter the second value=> '))
 variable3 = variable1 // variable2
-print(variable3)
+print(variable3) # or print(variable1 // variable2)
 
 # for modulo value
 print(9 % 5)
@@ -50,7 +50,7 @@ print(9 % 5)
 variable1 = int(input('enter the first value=> '))
 variable2 = int(input('enter the second value=> '))
 variable3 = variable1 % variable2
-print(variable3)
+print(variable3) # or print(variable1 % variable2)
 
 # for power value
 print(2**2)
