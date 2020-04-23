@@ -2,7 +2,7 @@
 variable1 = 2
 print(variable1)
 
-variable1, variable2 = 2, 4
+variable1, variable2 = 2, 4.5
 print(variable1)
 print(variable2)
 
