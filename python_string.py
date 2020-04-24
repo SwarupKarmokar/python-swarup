@@ -6,7 +6,7 @@ my_string = "my name is swarup karmokar"
 print(my_string)
 
 # now try
-my_string = 'kalu and lalu are swarup's pets'
+#my_string = 'kalu and lalu are swarup's pets'
 # its shows error because when the single quote end python interpreter don't recognize rest of the code
 # now try
 my_string = "kalu and lalu are swarup's pets"
