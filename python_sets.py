@@ -18,3 +18,7 @@ print(my_set1)
 my_list1 = [1, 2, 3, 4, 4, 5, 3, 2, 1, 6, 6, 6, 5, 5]
 my_set2 = set(my_list1)
 print(my_set2)
+
+# mutable checking=>
+my_set2[0] = 'iam'
+print(my_set2)  # its shows error, we can't change set values so set is unmutable
