@@ -28,4 +28,4 @@ print(my_list)
 # the commented example is the same of it.
 # it similar to the tuple unpacking.
 for index_count, item in enumerate('hello world'):
-    print('at {} index letter is {}'.format(index_count,item))
+    print('at {} index letter is {}'.format(index_count, item))
