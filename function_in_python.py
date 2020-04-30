@@ -47,3 +47,50 @@ def prime_num(number):
 
 prime_num(17)
 prime_num(16)
+
+# write a function that return the lesser of two given even number, but return greater if on of the given number is odd
+def numbers(num1, num2):
+    if num1%2 and num2%2 == 0:
+        if num1<num2:
+            result = num1
+        else:
+            result = num2
+    else:
+        if num1 > num2:
+            result = num1
+        else:
+            result = num2
+    return result
+
+answer = numbers(4,17)
+print(answer)
+answer = numbers(66,2)
+print(answer)
+
+# same problem with min and max func:
+def number1(num1, num2):
+    if num1%2 and num2%2 == 0:
+        result = min(num1,num2)
+    else:
+        result = max(num1, num2)
+    return result
+
+answer1 = number1(66, 2)
+print(answer1)
+
+# write a function which return a  true value if the two given name start with same alphabet and return false if not:
+def letter_check(text):
+    name = text.lower().split()  # it make a list like ['name1', 'name2'] now perform indexing and slicing
+    return name[0][0] == name[1][0]  # comparison operator return boolean value
+
+name_check = letter_check('hello hi')
+print(name_check)
+
+# write a function that return the first letter of name's first name and last name in capital
+def name_check(text):
+    name1 = text[:5]
+    name2 = text[5:]
+    return name1.capitalize() + name2.capitalize()  # capitalize method return the capital value of a string
+
+answer = name_check('pizzahut')
+print(answer)
