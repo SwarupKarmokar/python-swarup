@@ -94,3 +94,41 @@ def name_check(text):
 
 answer = name_check('pizzahut')
 print(answer)
+# we also can perform using .upper() method:
+def name_check(text):
+    name1 = text[0].upper()
+    name2 = text[1:5]
+    name3 = text[5].upper()
+    name4 = text[6:]
+    return name1+name2+name3+name4
+answer = name_check('pizzahut')
+print(answer)
+
+# now create a function which return reverse of a word:
+def rev_word(text):
+    word = text.split()
+    new_word = word[::-1]
+    print(word)
+    return ' '.join(new_word)  # .join() allow us to joint splitted string into one string
+answer = rev_word('hello how are you')
+print(answer)
+
+# using absolute value:
+# abs():return absolute value
+print(abs(-4))
+
+# try:
+def absolute(n):
+    return (abs(100 - n) <= 10 or abs(50 - n) >= 10)
+ans = absolute(104)
+print(ans)
+
+# create a function which return a string holding multiple same character:
+# like: hello = hhhhheeeeellllllllllooooo
+def multi_character(text):
+    result = ''
+    for item in text:
+        result += item *5
+    return result
+ans = multi_character('hello')
+print(ans)
