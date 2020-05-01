@@ -132,3 +132,41 @@ def multi_character(text):
     return result
 ans = multi_character('hello')
 print(ans)
+
+# try
+def check_int(a,b,c):
+    # return sum if sum of the integer value <= 21
+    if sum((a,b,c)) <= 21:
+        return sum((a,b,c))
+    # if this sum of integer less than 21 and value 10 is the one of the three value return sum of integer - 11
+    elif sum((a,b,c)) <= 21 and 10 in (a,b,c):
+        return sum((a,b,c)) - 11
+    else:
+        return 'code error'
+ans = check_int(4,5,6)
+print(ans)
+ans1 = check_int(1,10,9)
+print(ans1)
+ans2 = check_int(45,6,7)
+print(ans2)
+
+# check the prime num exists in a given number:
+def prime_check(num):
+    prime_number = [2]
+    if num < 2:
+        return 0
+    x = 3
+    while x <= num:
+        for item in range(3,x,2):
+            if x % item == 0:
+                x += 2
+                break
+        else:
+            prime_number.append(x)
+            x += 2
+    print(prime_number)
+    return len(prime_number)
+
+
+ans = prime_check(100)
+print(ans)
