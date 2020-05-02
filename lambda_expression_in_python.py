@@ -12,3 +12,15 @@ print(ans)  # its return the memory location of the function
 # creating the anonymous function:
 result = ans(6)
 print(result)
+
+# lambda expression with map and filter function=>
+# see map and filter function before doing this.
+
+# lambda expression with map function:
+my_number = list(range(10))
+ans = list(map(lambda num: num ** 3, my_number))
+print(ans)
+
+# lambda expression with filter function:
+ans1 = list(filter(lambda num: num % 2 ==0, my_number))
+print(ans1)
