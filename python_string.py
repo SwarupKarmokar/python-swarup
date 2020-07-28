@@ -43,7 +43,7 @@ color = 'black'
 print(my_name + ' loves' + color)
 
 # string concatenation using formatted string:
-print(f'{my_name} + " favarite color is" + {color}')
+print(f'{my_name} favarite color is {color}')
 
 print('hello {} how are you'.format('swarup'))
 
